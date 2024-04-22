@@ -7,19 +7,19 @@ Table name: cars
 - id | INT or BIGINT | PK(primary key) | AI (autoincrement) | U (unique) | NOTNULL |
 - brand | NOTNULL | VARCHAR(10) |
 - name | NOTNULL | VARCHAR(10) |
-- model year | NULL | YEAR
-- power unit type | NOTNULL | VARCHAR(10) |
+- model_year | NULL | YEAR
+- power_unit_type | NOTNULL | VARCHAR(10) |
 - fuel | NOTNULL | VARCHAR(8) 
-- engine capacity | NOTNULL |
+- engine_capacity | NOTNULL |
 - horsepower | NOTNULL | MEDIUMINT
-- trunk capacity | NOTNULL |
+- trunk_capacity | NOTNULL |
 - gearbox | NOTNULL | VARCHAR(10)
-- seat number | NOTNULL | 
-- drive type (rear/front/AWD) | NOTNULL |
+- seat_number | NOTNULL | 
+- drive_type (rear/front/AWD) | NOTNULL |
 
 
 
-| id  | brand   | name | model year | power unit type | fuel   | engine capacity | horsepower | trunk capacity | gearbox   | seat number | drive type |
+| id  | brand   | name | model_year | power_unit_type | fuel   | engine_capacity | horsepower | trunk_capacity | gearbox   | seat_number | drive_type |
 | --- | ------- | ---- | ---------- | --------------- | ------ | --------------- | ---------- | -------------- | --------- | ----------- | ---------- |
 | 1   | Peugeot | 308  | 2022       | termico         | diesel | 1.5 liter       | 130        | 450            | automatic | 5           | front      |
 | 2   |         |
